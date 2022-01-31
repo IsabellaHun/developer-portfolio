@@ -63,9 +63,9 @@ export default function Home() {
             <br/><br/>
 
             {/* Social Links */}
-            <a href='https://github.com/IsabellaHun' target='_blank' className={styles.socials}><AiFillGithub/></a>
-            <a href='https://www.linkedin.com/in/isabellavaneck/' target='_blank' className={styles.socials}><AiFillLinkedin/></a>
-            <a href='https://www.facebook.com/profile.php?id=100073926841078' target='_blank' className={styles.socials}><AiFillFacebook/></a>
+            <a href='https://github.com/IsabellaHun' target='_blank' rel="noreferrer" className={styles.socials}><AiFillGithub/></a>
+            <a href='https://www.linkedin.com/in/isabellavaneck/' target='_blank' rel="noreferrer" className={styles.socials}><AiFillLinkedin/></a>
+            <a href='https://www.facebook.com/profile.php?id=100073926841078' target='_blank' rel="noreferrer" className={styles.socials}><AiFillFacebook/></a>
         </motion.div>
       </div>
 
