@@ -1,0 +1,19 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+    background-color: #212121;
+    color: #ffffff;
+}
+
+.socials {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.socials:hover {
+    position: relative;
+    left: 3px;
+    bottom: 3px;
+}

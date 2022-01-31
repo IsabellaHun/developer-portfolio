@@ -1,0 +1,32 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15%;
+    background-color: #212121;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.li {
+    list-style-type: none;
+    display: inline-block;
+    padding:  0 20px;
+}
+
+.a:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    color: #00aeff;
+}
+
+.btn {
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: 2px solid #e31f71;
+    cursor: pointer;
+    background-color: #e21f71;
+}
+

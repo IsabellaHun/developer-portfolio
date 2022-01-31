@@ -1,0 +1,148 @@
+/* colored blocks across page */
+.block {
+  position: absolute;
+}
+
+.block8 {
+  background-color: #e1801f;
+  width: 190px;
+  height: 370px;
+  top: 0;
+  right: 0;
+}
+
+.block9 {
+  background-color: #00aeff;
+  width: 130px;
+  height: 365px;
+  z-index: 1;
+  top: 170px;
+  right: 0;
+}
+
+.block10 {
+  background-color: #ffe240;
+  width: 115px;
+  height: 400px;
+  top: 450px;
+}
+
+.block11 {
+  background-color: #00ffbb;
+  width: 65px;
+  height: 185px;
+  top: 750px;
+  z-index: 1;
+}
+
+.colorHead {
+    color: #00ffbb;
+    font-size: 25px;
+  }
+  
+.sectionHead {
+    font-size: 30px;
+}
+
+.centerText {
+    padding-top: 5%;
+    text-align: center;
+}
+
+  /* Contact Page */
+
+.contactContainer {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 10%;
+  }
+  
+  .contactPage {
+    height: 85vh;
+    background-color: #262626;
+    color: #fff;
+  }
+  
+  .rowIcons {
+    width: 80%;
+    display: flex;
+    position: relative;
+    left: 20%;
+  }
+  
+  .icons {
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .iconCustom1 {
+    color: #8838b4;
+    font-size: 20px;
+  }
+  
+  .iconCustom2 {
+    color: #00aeff;
+    font-size: 20px;
+  }
+  
+  .iconCustom3 {
+    color: #ffe240;
+    font-size: 20px;
+  }
+  
+  .form {
+    width: 65%;
+    position: relative;
+    left: 17.5%;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: transparent;
+    color: #cccfce;
+    border: 1px solid #707070;
+    border-radius: 20px;
+  }
+  
+  .inputMsg {
+    width: 100%;
+  
+    height: 150px;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: transparent;
+    color: #cccfce;
+    border: 1px solid #707070;
+    border-radius: 20px;
+  }
+  
+  .formBtn {
+    background-color: transparent;
+    color: #e31f71;
+    padding: 7px 25px;
+    margin-top: 5px;
+    border: 1px solid #e31f71;
+    border-radius: 10px;
+    float: right;
+  }
+  
+  .formBtn:hover {
+    transition: 0.7s;
+    cursor: pointer;
+    background-color: #e31f71;
+    color: #000;
+  }
+
+  .colorHead {
+    font-family: 'Source Serif 4', sans-serif;
+  }
+  
+  .subHead {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-weight: 500;
+  }
+
+  

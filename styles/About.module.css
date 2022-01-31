@@ -1,0 +1,75 @@
+/* About Page */
+/* colored blocks across page */
+.block {
+  position: absolute;
+}
+
+.block3 {
+  background-color: #ffe240;
+  width: 105px;
+  height: 366px;
+  top: 0;
+  z-index: 1;
+}
+
+.block4 {
+  background-color: #00aeff;
+  width: 105px;
+  height: 355px;
+  top: 460px;
+  right: 0;
+  z-index: 1;
+}
+
+.block5 {
+  background-color: #e31f71;
+  width: 175px;
+  height: 415px;
+  top: 660px;
+  right: 0;
+}
+ 
+.aboutPage {
+    background-color: #262626;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  .row{
+    width: 80%;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+  
+  .col2 {
+    flex: 50%;
+    padding: 0 15px;
+  }
+  
+  .colorHead {
+    color: #00ffbb;
+    font-size: 25px;
+  }
+  
+  .sectionHead {
+    font-size: 30px;
+  }
+  
+  .aboutPar {
+    font-size: 20px;
+  }
+
+  .colorHead {
+    font-family: 'Source Serif 4', sans-serif;
+  }
+  
+  .subHead {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-weight: 500;
+  }
+
+  
