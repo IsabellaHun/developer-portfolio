@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
     }
   }, [router.events])
   return (
-    <Layout>
+    <>
       <Script
       strategy='lazyOnload'
       src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID}`}/>
@@ -32,8 +32,10 @@ function MyApp({ Component, pageProps }) {
           gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
         `}
       </Script>
-      <Component {...pageProps} />
-    </Layout>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
   )}
 
 export default MyApp
