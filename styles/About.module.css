@@ -6,7 +6,7 @@
 
 .block3 {
   background-color: #ffe240;
-  width: 105px;
+  width: 6%;
   height: 366px;
   top: 0;
   z-index: 1;
@@ -14,7 +14,7 @@
 
 .block4 {
   background-color: #00aeff;
-  width: 105px;
+  width: 5%;
   height: 355px;
   top: 460px;
   right: 0;
@@ -23,7 +23,7 @@
 
 .block5 {
   background-color: #e31f71;
-  width: 175px;
+  width: 10%;
   height: 415px;
   top: 660px;
   right: 0;
@@ -70,6 +70,18 @@
   .subHead {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     font-weight: 500;
+  }
+
+  @media all and (max-width: 850px) {
+    .row{
+      width: 70%;
+      display: inline-block;
+    }
+  
+    .colorHead, .sectionHead {
+      text-align: center;
+    }
+    
   }
 
   

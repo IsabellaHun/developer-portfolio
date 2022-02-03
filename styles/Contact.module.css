@@ -5,7 +5,7 @@
 
 .block8 {
   background-color: #e1801f;
-  width: 190px;
+  width: 10%;
   height: 370px;
   top: 0;
   right: 0;
@@ -13,7 +13,7 @@
 
 .block9 {
   background-color: #00aeff;
-  width: 130px;
+  width: 6%;
   height: 365px;
   z-index: 1;
   top: 170px;
@@ -22,14 +22,14 @@
 
 .block10 {
   background-color: #ffe240;
-  width: 115px;
+  width: 6%;
   height: 400px;
   top: 450px;
 }
 
 .block11 {
   background-color: #00ffbb;
-  width: 65px;
+  width: 4%;
   height: 185px;
   top: 750px;
   z-index: 1;
@@ -143,6 +143,24 @@
   .subHead {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     font-weight: 500;
+  }
+
+  @media all and (max-width: 850px) {
+    .contactContainer {
+      width: 70%;
+      left: 15%;
+    }
+    
+    .rowIcons {
+      width: 100%;
+      left: 0;
+    }
+    
+    .form {
+      width: 100%;
+      left: 0;
+    }
+    
   }
 
   

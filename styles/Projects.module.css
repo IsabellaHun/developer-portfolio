@@ -6,7 +6,7 @@
 
 .block5 {
   background-color: #e31f71;
-  width: 175px;
+  width: 10%;
   height: 200px;
   top: 0;
   right: 0;
@@ -14,7 +14,7 @@
 
 .block6 {
   background-color: #00ffbb;
-  width: 65px;
+  width: 4%;
   height: 185px;
   top: 240px;
   z-index: 1;
@@ -22,22 +22,22 @@
 
 .block7 {
   background-color: #8838b4;
-  width: 145px;
+  width: 8%;
   height: 570px;
   top: 370px;
 }
 
 .block8 {
   background-color: #e1801f;
-  width: 190px;
+  width: 10%;
   height: 125px;
   top: 945px;
   right: 0;
 }
 
 .projectsPage {
-    height: 100vh;
     background-color: #262626;
+    padding-bottom: 6rem;
     color: #fff;
   }
 
@@ -102,6 +102,13 @@
   .subHead {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     font-weight: 500;
+  }
+
+  @media all and (max-width: 850px) {
+    .row3{
+      display: inline-block;
+    }
+    
   }
 
   
