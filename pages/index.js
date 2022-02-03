@@ -100,12 +100,12 @@ export default function Home() {
           <motion.div className={`${styles.col3} ${styles.boxPink}`} whileHover={{
             position: 'relative',
             zIndex: 1,
-            scale: 1.4,
+            scale: 2,
             transition: {
               duration: .4
             }
           }}>
-            <a href='#'>
+            <a href='https://github.com/IsabellaHun/Adora'>
               <video width={'100%'} height={'100%'} autoPlay muted>
                 <source src='Adora_project1.mp4' type='video/mp4'/>
               </video>
@@ -114,12 +114,12 @@ export default function Home() {
           <motion.div className={`${styles.col3} ${styles.boxBlue}`} whileHover={{
             position: 'relative',
             zIndex: 1,
-            scale: 1.4,
+            scale: 2,
             transition: {
               duration: .4
             }
           }}>
-            <a href='#'>
+            <a href='https://github.com/IsabellaHun/react-deply-minesweeper'>
               <video width={'100%'} height={'100%'} autoPlay muted>
                 <source src='Minesweeper_project2.mp4' type='video/mp4'/>
               </video>
@@ -128,7 +128,7 @@ export default function Home() {
           <motion.div className={`${styles.col3} ${styles.boxYellow}`} whileHover={{
             position: 'relative',
             zIndex: 1,
-            scale: 1.4,
+            scale: 2,
             transition: {
               duration: .4
             }
@@ -145,7 +145,7 @@ export default function Home() {
         <motion.div className={`${styles.col3} ${styles.boxOrange}`} whileHover={{
             position: 'relative',
             zIndex: 1,
-            scale: 1.4,
+            scale: 2,
             transition: {
               duration: .4
             }
@@ -156,26 +156,12 @@ export default function Home() {
               </video>
             </a>
           </motion.div>
-          <motion.div className={`${styles.col3} ${styles.boxGreen}`} whileHover={{
-            position: 'relative',
-            zIndex: 1,
-            scale: 1.4,
-            transition: {
-              duration: .4
-            }
-          }}>
+          <div className={`${styles.col3} ${styles.boxGreen}`}>
             Nothing to show yet
-          </motion.div>
-          <motion.div className={`${styles.col3} ${styles.boxPurple}`} whileHover={{
-            position: 'relative',
-            zIndex: 1,
-            scale: 1.4,
-            transition: {
-              duration: .4
-            }
-          }}>
+          </div>
+          <div className={`${styles.col3} ${styles.boxPurple}`}>
             Nothing to show yet
-          </motion.div>
+          </div>
         </div>
 
       </div>

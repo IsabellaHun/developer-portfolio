@@ -188,7 +188,8 @@
 /* Projects Page */
 
 .projectsPage {
-  height: 100vh;
+  height: 100%;
+  margin-bottom: 5rem;
 }
 
 .centerText {
@@ -246,7 +247,7 @@
 }
 
 .contactPage {
-  height: 85vh;
+  height: 60vh;
   background-color: #262626;
 }
 
@@ -322,6 +323,37 @@
   color: #000;
 }
 
-@media all and (max-width: ) {
+@media all and (max-width: 850px) {
+  .intro {
+    width: 70%;
+  }
 
+  .row{
+    width: 70%;
+    display: inline-block;
+  }
+
+  .colorHead, .sectionHead {
+    text-align: center;
+  }
+
+  .row3{
+    display: inline-block;
+  }
+
+  .contactContainer {
+    width: 70%;
+    left: 15%;
+  }
+  
+  .rowIcons {
+    width: 100%;
+    left: 0;
+  }
+  
+  .form {
+    width: 100%;
+    left: 0;
+  }
+  
 }
